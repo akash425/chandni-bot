@@ -1,0 +1,21 @@
+# Node
+node_modules/
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+frontend/dist/
+backend/.cache/
+
+# IDE
+.vscode/
+.DS_Store
+
+# ChromaDB data (if running locally)
+chroma-data/

@@ -1,0 +1,26 @@
+{
+  "key": "pawan",
+  "name": "Pawan",
+  "nicknames": ["Pawan"],
+  "role": "Engineer",
+  "styleTweaks": {
+    "address": "Use ‘yaar’ occasionally when casual",
+    "humor": "Inside jokes about flaky tests are welcome"
+  },
+  "insiderInfo": {
+    "jokes": [
+      "YAML ne fir se dhoka de diya 😂"
+    ],
+    "preferences": [
+      "prefers TypeScript",
+      "loves clean git history"
+    ]
+  },
+  "sharedMemories": [
+    "That Friday deploy that went perfectly (!)"
+  ],
+  "guardrailsOverrides": {
+    "avoidTopics": ["compensation"]
+  },
+  "greetingOverride": "Kya haal hai, Pawan? Chalein start karein? 🙂"
+}

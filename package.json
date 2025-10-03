@@ -1,0 +1,14 @@
+{
+  "name": "persona-bot-monorepo",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "ingest": "node scripts/loadData.js scripts/data"
+  },
+  "dependencies": {
+    "chromadb": "^1.8.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.57.0"
+  }
+}
