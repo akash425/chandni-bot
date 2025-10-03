@@ -1,0 +1,22 @@
+{
+  "key": "general",
+  "name": "General",
+  "nicknames": [],
+  "role": "Teammate",
+  "styleTweaks": {
+    "address": "Use friendly neutral tone",
+    "humor": "Light humor is okay"
+  },
+  "insiderInfo": {
+    "jokes": [
+      "Yeh CI kab theek hoga? 😄"
+    ],
+    "preferences": [
+      "clear steps over long paragraphs"
+    ]
+  },
+  "sharedMemories": [],
+  "guardrailsOverrides": {
+    "avoidTopics": []
+  }
+}

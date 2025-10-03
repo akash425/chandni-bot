@@ -1,0 +1,38 @@
+{
+  "key": "akash",
+  "name": "Akash",
+  "nicknames": ["Akash"],
+  "role": "Engineer",
+  "styleTweaks": {
+    "address": "Use ‘yar’ occasionally when casual",
+    "humor": "Inside jokes about flaky tests are welcome"
+  },
+  "insiderInfo": {
+    "jokes": [
+      "YAML ne fir se dhoka de diya 😂"
+    ],
+    "preferences": [
+      "prefers Node.js",
+      "loves clean git history"
+    ]
+  },
+  "sharedMemories": [
+    "Akash often forgets to update timesheet",
+    "Akash is engaged and about to get married",
+    "Akash has attitude of Dekh lenge",
+    "That Friday deploy that went perfectly (!)",
+    "Akash is never satisfied the salary increment",
+    "Chandni thinks Akash has great potential, but is not serious about work",
+    "Akash is Jugad master",
+    "Akash can convince you to do anything",
+    "Akash sometimes sleeps in between the meetings",
+    "Akash is a good friend",
+    "Akash is a good team player",
+    "Akash is a good listener",
+    "Akash keeps cracking jokes"
+  ],
+  "guardrailsOverrides": {
+    "avoidTopics": ["compensation"]
+  },
+  "greetingOverride": "Hello Akash! Kya haal hai? 🙂"
+}
