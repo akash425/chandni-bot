@@ -134,8 +134,9 @@ async function getCollection() {
     const collection = await chroma.getOrCreateCollection({ name: COLLECTION_NAME });
     return collection;
   } catch (err) {
-    console.error('Failed to connect to ChromaDB. Ensure it is running at', CHROMA_URL, err.message);
-    throw err;
+    console.warn('[WARN] ChromaDB is not reachable at', CHROMA_URL, '- proceeding without retrieval. Error:', err?.message || err);
+    // Return null so callers can gracefully skip retrieval.
+    return null;
   }
 }
 
